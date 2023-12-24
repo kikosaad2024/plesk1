@@ -7,11 +7,11 @@
 	>
 <channel>
 	<title>
-	Comments for Marketplace Update	</title>
-	<atom:link href="https://catalog.marketplace.plesk.com/comments/feed/" rel="self" type="application/rss+xml" />
-	<link>https://catalog.marketplace.plesk.com/</link>
+	Comments for CDN Factorio	</title>
+	<atom:link href="https://cdn1.factorio.com/comments/feed/" rel="self" type="application/rss+xml" />
+	<link>https://cdn1.factorio.com/</link>
 	<description></description>
-	<lastBuildDate>Sat, 16 Dec 2023 21:37:39 +0000</lastBuildDate>
+	<lastBuildDate>Sun, 24 Dec 2023 20:07:33 +0000</lastBuildDate>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
