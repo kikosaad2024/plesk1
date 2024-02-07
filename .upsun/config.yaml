@@ -1,0 +1,25 @@
+applications:
+  app:
+    source:
+      root: "/"
+    type: "nodejs:18"
+    web:
+      commands:
+        start: "npx next start -p $PORT"
+    build:
+      flavor: none
+    dependencies:
+      nodejs:
+        sharp: "*"
+#services:
+  #  db:
+#    type: postgresql:15
+routes:
+  "https://{default}/":
+    type: upstream
+    upstream: "app:http"
+  # A basic redirect definition
+  # More information: https://docs.upsun.com/define-routes.html#basic-redirect-definition
+  "https://www.{default}/":
+    type: redirect
+    to: "https://{default}/"
