@@ -1,7 +1,7 @@
 applications:
   static_site_dotnet:
     source:
-      root: "/path/to/your/static/files"
+      root: "web"
     type: "dotnet:5.0"  # تحديد إصدار .NET Core المستخدم
     build:
       flavor: none
