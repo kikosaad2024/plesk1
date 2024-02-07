@@ -2,11 +2,11 @@ applications:
   static_site_dotnet:
     source:
       root: "web"
-    type: "dotnet:5.0"  # تحديد إصدار .NET Core المستخدم
+    type: "dotnet:5.0"
     build:
       flavor: none
     dependencies:
-      dotnet: "5.0"
+      dotnet: "5.0"  # تحديد إصدار .NET Core المستخدم
 
 routes:
   "https://{default}/":
