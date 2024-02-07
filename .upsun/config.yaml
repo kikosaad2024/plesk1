@@ -1,6 +1,0 @@
-applications:
-    static-html:
-        type: static
-        web:
-            root: /
-            index: index.html
