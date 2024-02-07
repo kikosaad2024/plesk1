@@ -1,25 +1,18 @@
 applications:
-  app:
+  static_site_dotnet:
     source:
-      root: "/"
-    type: "php:8.3"
-    web:
-      commands:
-        start: "npx next start -p $PORT"
+      root: "web"  # تحديد مسار جذر الملفات الثابتة
+    type: "dotnet"
     build:
-      flavor: none
+      flavor: none  # لا يوجد بناء إضافي مطلوب للصفحات الثابتة
     dependencies:
-      nodejs:
-        sharp: "*"
-#services:
-  #  db:
-#    type: postgresql:15
+      dotnet: "5.0"  # تحديد إصدار .NET Core المستخدم
+
 routes:
   "https://{default}/":
     type: upstream
-    upstream: "app:http"
-  # A basic redirect definition
-  # More information: https://docs.upsun.com/define-routes.html#basic-redirect-definition
+    upstream: "static_site_dotnet:web"
+
   "https://www.{default}/":
     type: redirect
     to: "https://{default}/"
