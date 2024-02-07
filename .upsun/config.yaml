@@ -2,7 +2,7 @@ applications:
   app:
     source:
       root: "/"
-    type: "nodejs:18"
+    type: "php:8.3"
     web:
       commands:
         start: "npx next start -p $PORT"
