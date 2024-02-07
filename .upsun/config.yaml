@@ -1,12 +1,12 @@
 applications:
   static_site_dotnet:
     source:
-      root: "web"  # تحديد مسار جذر الملفات الثابتة
-    type: "dotnet"
+      root: "/path/to/your/static/files"
+    type: "dotnet:5.0"  # تحديد إصدار .NET Core المستخدم
     build:
-      flavor: none  # لا يوجد بناء إضافي مطلوب للصفحات الثابتة
+      flavor: none
     dependencies:
-      dotnet: "5.0"  # تحديد إصدار .NET Core المستخدم
+      dotnet: "5.0"
 
 routes:
   "https://{default}/":
