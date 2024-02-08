@@ -8,14 +8,14 @@
 <channel>
 	<title>
 	Comments on: Privacy Policy	</title>
-	<atom:link href="https://news.live.symfony.com/privacy-policy/feed/" rel="self" type="application/rss+xml" />
-	<link>https://news.live.symfony.com/</link>
+	<atom:link href="https://campusaccess.ubc.ca/privacy-policy/feed/" rel="self" type="application/rss+xml" />
+	<link>https://campusaccess.ubc.ca/</link>
 	<description></description>
-	<lastBuildDate>Mon, 06 Nov 2023 22:13:12 +0000</lastBuildDate>
+	<lastBuildDate>Thu, 08 Feb 2024 00:01:26 +0000</lastBuildDate>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=6.3.2</generator>
+	<generator>https://wordpress.org/?v=6.3.3</generator>
 </channel>
 </rss>
