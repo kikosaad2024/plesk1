@@ -1,0 +1,211 @@
+input,
+textarea {
+  -webkit-user-select: text;
+  -khtml-user-select: text;
+  -moz-user-select: text;
+  -ms-user-select: text;
+  user-select: text;
+}
+.breadcrumb {
+  margin-bottom: 0;
+}
+.highlighted.inflate {
+  margin-left: 0;
+  margin-right: 0;
+}
+.alert-close {
+  float: right;
+  margin-top: 8px;
+}
+.alert-timestamp {
+  display: none;
+}
+#edit-submit-faq-list {
+  width: 100%;
+}
+#ubc7-footer {
+  overflow: hidden;
+}
+.dropdown-from-icon .dropdown-menu {
+  margin-top: 0;
+}
+.background--orange-texture {
+  position: relative;
+}
+.background--orange-texture .fullscreen-button {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 1.5em;
+}
+.background--orange-texture .fullscreen-button a {
+  color: white;
+  text-decoration: none;
+}
+#block-ubc-parking-map-parking-map {
+  /* workaround for drupal views issue with BEM underscores*/
+}
+#block-ubc-parking-map-parking-map #map {
+  width: 100vw;
+  height: 800px;
+  float: left;
+}
+#block-ubc-parking-map-parking-map #map .gm-style-iw .parking-details {
+  margin-top: 10px;
+  padding-bottom: 2px !important;
+  display: block;
+}
+#block-ubc-parking-map-parking-map .map__details {
+  left: 0;
+  box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.5);
+}
+#block-ubc-parking-map-parking-map .map__details .map__close-button:hover {
+  background: #585858;
+}
+#block-ubc-parking-map-parking-map .map__details .map__close-button {
+  height: 30px;
+}
+#block-ubc-parking-map-parking-map .map__details .view-map-button {
+  text-align: center;
+}
+#block-ubc-parking-map-parking-map .map__details .parking-list-heading {
+  display: inline-block;
+  width: 100%;
+  height: 30px;
+  line-height: 2;
+  background-color: #585858;
+  color: #fff;
+  text-transform: uppercase;
+  position: relative;
+  text-align: center;
+  border-bottom: 1px white solid;
+}
+#block-ubc-parking-map-parking-map .map__details.closed {
+  left: -30vw;
+}
+#block-ubc-parking-map-parking-map .widget-pane-toggle-button-container {
+  position: absolute;
+  z-index: 0;
+  top: 10px;
+  left: 30vw;
+  display: block;
+}
+#block-ubc-parking-map-parking-map .widget-pane-toggle-button-container .widget-pane-toggle-button {
+  width: 23px;
+  height: 48px;
+  cursor: pointer;
+  color: white;
+  background: #00588f;
+  border: none;
+  border-radius: 0 8px 8px 0;
+  box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.5);
+}
+#block-ubc-parking-map-parking-map .widget-pane-toggle-button-container .widget-pane-toggle-button i.fa-caret-left {
+  display: block;
+}
+#block-ubc-parking-map-parking-map .widget-pane-toggle-button-container .widget-pane-toggle-button i.fa-caret-right {
+  display: none;
+}
+#block-ubc-parking-map-parking-map .widget-pane-toggle-button-container.closed {
+  left: 0;
+}
+#block-ubc-parking-map-parking-map .widget-pane-toggle-button-container.closed .widget-pane-toggle-button i.fa-caret-left {
+  display: none;
+}
+#block-ubc-parking-map-parking-map .widget-pane-toggle-button-container.closed .widget-pane-toggle-button i.fa-caret-right {
+  display: block;
+}
+#block-ubc-parking-map-parking-map .map__parkade-info table {
+  font-size: 1em;
+}
+#block-ubc-parking-map-parking-map .map__google {
+  position: relative;
+}
+#block-ubc-parking-map-parking-map #map-zoom {
+  display: inline-block;
+  right: 50px;
+  top: 0;
+  position: absolute;
+}
+#block-ubc-parking-map-parking-map #map-controls {
+  position: relative !important;
+  margin-top: 20px;
+  margin-right: 25px;
+}
+#block-ubc-parking-map-parking-map #map-controls #map-search {
+  position: absolute;
+  right: 100px;
+  top: 5px;
+  max-width: 200px;
+  line-height: 20px;
+  height: 26px;
+}
+#block-ubc-parking-map-parking-map #map-controls .map__buttons {
+  position: absolute;
+  right: 0;
+}
+#block-ubc-parking-map-parking-map #map-controls .map__buttons a {
+  display: block;
+  text-decoration: none;
+  color: #FFF;
+  margin: 5px 0;
+  padding: 5px;
+  background: #00588f;
+  width: 80px;
+  height: 23px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 12px;
+  text-transform: uppercase;
+  border-radius: 4px;
+}
+#block-ubc-parking-map-parking-map #map-controls .map__buttons a:after {
+  content: "+";
+  float: right;
+}
+#block-ubc-parking-map-parking-map #map-controls .map__buttons a:hover {
+  color: #00588f;
+  background: #97d1f9;
+  text-decoration: none;
+}
+#block-ubc-parking-map-parking-map #map-controls .map__filters {
+  position: absolute;
+  right: 0;
+  top: 60px;
+  box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.5);
+}
+#block-ubc-parking-map-parking-map #map-controls .map__filters .map__filter_box {
+  padding: 0.5em;
+  background: #FFF;
+}
+#block-ubc-parking-map-parking-map #map-controls .map__filters .map__filter_box input[type=checkbox],
+#block-ubc-parking-map-parking-map #map-controls .map__filters .map__filter_box input[type=radio] {
+  font-size: 1.5em;
+  vertical-align: baseline;
+}
+#block-ubc-parking-map-parking-map #map-controls .map__filters .map__filter_box label {
+  margin-bottom: 10px;
+}
+#block-ubc-parking-map-parking-map .map--parkade-info {
+  border-bottom: 1px solid #999;
+  padding: 1em;
+}
+.green {
+  background-color: #0e9c57;
+}
+.orange {
+  background-color: orange;
+}
+.red {
+  background-color: red;
+}
+@media screen and (max-width: 736px) {
+  #block-ubc-parking-map-parking-map .widget-pane-toggle-button-container {
+    display: none;
+  }
+}
+@media screen and (min-width: 737px) {
+  #block-ubc-parking-map-parking-map .view-map-button {
+    display: none;
+  }
+}

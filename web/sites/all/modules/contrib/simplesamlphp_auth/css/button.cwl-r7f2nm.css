@@ -1,0 +1,55 @@
+.cwl-login {
+  background-image: none; /*temp*/
+  box-sizing: border-box;
+  display: inline-block;
+  padding: 8px 18px;
+  white-space: nowrap;
+  font-size: 16px;
+  line-height: 12px;
+  text-align: center;
+  vertical-align: middle;
+  cursor: pointer;
+  font-family: Arial, san-serif;
+  background-color: #002145;
+  -webkit-transition: background-color .5s ease;
+  transition: background-color .5s ease;
+}
+.cwl-login:hover {
+  background-color: #264e6a;
+}
+.cwl-login a {
+  box-sizing: border-box;
+  position: relative;
+  padding-left: 50px;
+  height: 40px;
+  line-height: 24px;
+  color: #fff !important;
+  text-decoration: none;
+  text-transform: none;
+  -webkit-transition: color .5s ease;
+  transition: color .5s ease;
+}
+.cwl-login:hover a,
+.cwl-login a:hover {
+  color: #fff !important;
+  text-decoration: none !important;
+}
+.cwl-login span {
+  position: absolute;
+  display: inline-block;
+  left: 0;
+  top: -12px;
+  width: 42px;
+  height: 42px;
+  border: 2px solid #fff;
+  line-height: 40px;
+  background-color: orange;
+  border-radius: 50%;
+  font-size: 11px;
+  font-weight: bold;
+  -webkit-transition: background-color .5s ease;
+  transition: background-color .5s ease;
+}
+.cwl-login:hover span {
+  background-color:rgb(181, 123, 16);
+}
