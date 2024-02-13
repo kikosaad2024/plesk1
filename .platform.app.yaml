@@ -19,3 +19,5 @@ web:
             root: "web"
             index:
                 - "index.html"
+            expires: 1d
+            passthru: "/404.html"
